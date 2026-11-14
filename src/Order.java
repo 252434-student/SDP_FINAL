@@ -9,7 +9,6 @@ public class Order {
     private OrderState state = new ReceivedState();
     private final ArrayList<OrderObserver> observers = new ArrayList<>();
     private final ArrayList<String> history = new ArrayList<>();
-
     private Order(Builder builder) {
         if (builder.id < 1) throw new IllegalArgumentException("Invalid order number.");
         if (builder.customer == null || builder.customer.trim().isEmpty())
@@ -52,7 +51,6 @@ public class Order {
         state = state.next();
         notifyObservers();
     }
-    // Builder: collect fields and validate the complete order in build().
     public static class Builder {
         private int id;
         private String customer;

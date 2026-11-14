@@ -1,6 +1,6 @@
 import java.util.ArrayList;
-import java.util.Scanner;
 import java.util.NoSuchElementException;
+import java.util.Scanner;
 
 public class Main {
     private static final Scanner input = new Scanner(System.in);

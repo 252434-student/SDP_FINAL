@@ -1,4 +1,3 @@
-// Strategy: one pricing rule is selected for the entire order.
 public interface PricingStrategy {
     int calculate(int subtotal);
     String getName();
