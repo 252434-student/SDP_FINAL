@@ -1,0 +1,21 @@
+PASS 1: Decorator adds services
+PASS 2: Quantity multiplies the decorated item price
+PASS 3: Standard pricing: 9900
+PASS 4: Loyalty pricing: 8910
+PASS 5: Express pricing: 14850
+PASS 6: Builder preserves customer and items
+PASS 7: Builder requires mandatory data
+PASS 8: Zero and negative quantities are rejected
+PASS 9: Empty order is rejected
+PASS 10: Blank customer is rejected
+PASS 11: State follows all five stages
+PASS 12: Delivered is a terminal state
+PASS 13: Observer receives changes and can unsubscribe
+PASS 14: Facade records initial status and every change
+PASS 15: Multiple orders remain independent
+PASS 16: Unknown order ID is rejected
+PASS 17: Console demo runs successfully
+PASS 18: Console exits when input is empty
+PASS 19: Console exits when input ends during order creation
+PASS 20: Console create, list, view, advance and invalid ID
+PASS: 20 scenarios

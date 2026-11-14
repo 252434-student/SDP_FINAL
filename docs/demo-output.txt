@@ -1,0 +1,21 @@
+LAUNDRY PROJECT DEMONSTRATION - Dauren and Ali
+
+ORDER #1001
+Customer: Demo Customer | Phone: +7 700 000 0000
+2 x Shirt + ironing + packaging = 4600 KZT
+1 x Coat + stain removal = 5300 KZT
+Subtotal: 9900 KZT
+Plan: Loyalty (-10%)
+Adjustment: -990 KZT
+Total: 8910 KZT
+Current status: Accepted
+History:
+  Status: Accepted
+
+Processing the order:
+Next status: Washing
+Next status: Drying
+Next status: Ready for pickup
+Next status: Delivered
+History entries: 5
+Rejected extra transition: This order has already been delivered.
