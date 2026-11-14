@@ -2,7 +2,7 @@
 
 A Java console application for a Design Patterns final project.
 
-**Team:** Dauren (SE-2524) and Ali (SE-2537)
+**Team:** Dauren and Ali
 
 The program accepts laundry orders, adds extra services, calculates the price and tracks the order status.
 
