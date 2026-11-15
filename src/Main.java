@@ -7,7 +7,7 @@ public class Main {
     private static final LaundryManager manager = new LaundryManager();
 
     public static void main(String[] args) {
-        System.out.println("LAUNDRY MANAGEMENT: \n Final Project by Dauren and Ali \nGroups SE-2534 and 37");
+        System.out.println("LAUNDRY MANAGEMENT: \n Final Project by Dauren and Ali \nGroups SE-2524 and 37");
         boolean running = true;
         while (running) {
             System.out.println("\n1. Create order\n2. List orders\n3. View order\n4. Next status\n0. Exit");
