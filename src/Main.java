@@ -25,7 +25,10 @@ public class Main {
                 else if (choice == 4) {
                     Order order = manager.advanceOrder(readNumber("Order number: ", 1, 999999));
                     System.out.println("New status: " + order.getStatus());
-                } else running = false;
+                }
+                else {
+                    running = false;
+                }
             } catch (NoSuchElementException error) {
                 running = false;
             } catch (IllegalArgumentException | IllegalStateException error) {
